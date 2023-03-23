@@ -1,0 +1,57 @@
+Data Flow :
+
+                                main.py
+                                   |
+                                app.py
+                                   |
+                              [Login,login]  -> Storage login credentials   
+                    ---------------------------------
+                    |                               |
+               user_section.py              admin_section.py
+                    |                               |
+               user_methods.py              admin_methods.py
+              [User,users,orderd]         [FoodItems,foodItems]
+              storage users profile          storage inventory
+              and orders
+
+Command to run whole code: python main.py
+
+The code contains some default users and admins (it might take time to load because of that)
+so tester can skip through registeration process (if he/she wants).
+
+for admin : username - test_admin , password - admin123
+for user : username - test_user, password - user123
+
+Some Input examples for the steps tester might get confused. 
+
+ADMIN SECTION:
+
+1. Add Food Item
+Enter Food Name: foodname(weight)
+Enter Quantity: quantity(pcs)
+Enter Price: price
+Enter Discount: integer value
+Enter Stock: integer value
+
+2. Edit Food Item:
+Enter foodID, name and new value: food_id, Name|Quantity|Price|Discount|Stock, new value
+
+User Section:
+
+Enter Full Name: checks for three units (of any lengths) as 'unit1 unit2 unit3'
+example, 'Harshavardhan Sukumar Kamble' not 'Harsh Kamble' or 'Harsh' only.
+
+Enter Email: should be gmail address only not yahoo or anything
+
+Enter address: nothing special you can write anything
+
+Enter phone no.: should be of length 10 not starting with 0
+
+1. Place Order
+Enter the dishes: array of numbers
+
+(value for stock gets updated after each order so next time items with zero stock
+will not be shown)
+
+2. Update Profile
+Enter number and updated value: 1 for Name|2 for Phone no. and so on, new value
