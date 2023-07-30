@@ -1,0 +1,24 @@
+Q1.
+Let's create a ML model to predict rent of house.
+Here is the data - Link
+Make sure you do data wrangling & get useful insights/visualizations
+Create models using Linear Regressions or variations of it
+Think harder about data preprocessing
+
+Q2.
+Target Column - 'left' (0/1) represents exit or not
+Data is heterogeneous in nature, so would need preprocessing before you feed them to ML models
+Build a model to predict left column
+Don't forget to spilt data in train & test subsets
+Data Wrangling & insights graphs are always an important part of data scienceRecently you entered in the mobile manufacturing market. Build a machine learning model that would help you to know the estimated price for your manufactured mobile phones on the basis of various key features 
+
+Q3.
+Recently you entered in the mobile manufacturing market. Build a machine learning model that would help you to know the estimated price for your manufactured mobile phones on the basis of various key features and specifications.
+
+Q4.
+Imagine you are Data Scientist who would help find the price for lodging or homestays based on different attributes mentioned in their 
+
+listings. Oh wait, what are listings? Listings can include written descriptions, photographs with captions, and a user profile where potential guests can get to know a bit about the hosts.And you are given the listings of one of the most popular cities in central Europe: Amsterdam.
+
+Now your job is to build a machine learning model that will automatically predict the price for lodging or homestays.
+
