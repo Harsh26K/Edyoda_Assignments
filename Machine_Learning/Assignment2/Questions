@@ -1,0 +1,19 @@
+Q1. 
+We will be working on Employee Data. This is employee attrition data. The 'left' named column represents exit from the company or not.
+
+The data consists of categorical & number data. Thus, needs data preprocessing. Make use of preprocessing techniques that you have learnt & build model to predict 'left' named column
+
+Q2.
+Imagine you are working as a data scientist in a big organization which has thousands of employees. The HR department is planning to provide some additional compensation to each working employee which needs to be calculated by looking at the profile of each employee and the benefits they are getting. 
+
+The HR department asks your help if you can use your data science and machine learning skills and calculate an estimated ‘Total Compensation’ for each employee.
+
+Q3.
+Obesity is a worldwide problem which causes a lot of serious medical problems. Obesity will be increased, about 45% out of the whole population by 2035. The proportion of morbid obese and the actual costs on healthcare will be increased. Implementation of a system that could estimate the percentage of obese population for particular time duration given the age range, income range, location, high confidence level and low confidence level of obesity, education, gender, the class level, etc. of the population can help in fight against obesity.
+
+Build a machine learning model to estimate the percentage of obese population.
+
+Q4.
+Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
+
+With 79 explanatory variables describing (almost) every aspect of residential homes, build a machine learning model to predict the price of a house
